@@ -7,4 +7,4 @@ document.getElementById("landing_video").innerHTML = "\n<img class=\"landing_vid
 var template_navbar_params = {
     url: "./dist/media/pictures/logo.png"
 };
-document.getElementById("navbar").innerHTML = "\n<div class=\"navbar__container flex__container flex__container__centered\">\n    <div class=\"navbar__container__contents\">\n        <img class=\"navbar__element__brand\" src=" + template_navbar_params.url + "></img>\n    </div>\n</div>\n";
+document.getElementById("navbar").innerHTML = "\n<div class=\"navbar__container flex__container flex__container__centered\">\n  <div class=\"navbar__container__contents\">\n    <img class=\"navbar__element__brand\" src=" + template_navbar_params.url + "></img>\n  </div>\n</div>\n";
