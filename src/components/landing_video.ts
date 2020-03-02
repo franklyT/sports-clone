@@ -1,14 +1,12 @@
-const template_landing_video_parameters = {
-  url: "./dist/media/pictures/logo.png"
+const template_landing_video_params = {
+  brand_url: "./dist/media/pictures/logo.png",
+  video_url: "./dist/media/videos/pexels2.mp4"
 };
-const template_landing_video = document.createElement("div");
 
-template_landing_video.innerHTML = `
-<img class="landing_video__logo" src="./dist/media/pictures/logo.png"></img>
+document.getElementById("landing_video")!.innerHTML = `
+<img class="landing_video__logo" src=${template_landing_video_params.brand_url}></img>
 <video class="landing_video__video" style="object-fit: fill;" autoplay muted loop>
-    <source src="./dist/media/videos/pexels2.mp4" type="video/mp4">
+    <source src=${template_landing_video_params.video_url} type="video/mp4">
     Your browser does not support the video tag.
 </video>
 `;
-
-document.getElementById("landing_video")!.appendChild(template_landing_video);
