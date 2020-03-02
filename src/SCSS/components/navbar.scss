@@ -1,0 +1,31 @@
+.navbar__container {
+    top: 0;
+    height: 6.39vh;
+    width: 100%;
+
+    background-color: $red;
+    @include box-shadow(3px 3px 5px 2px #000);
+}
+
+.navbar__container__contents {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.navbar__element {
+
+}
+
+.navbar__element__search {
+
+}
+
+.navbar__element__dropdown {
+
+}
+
+.navbar__element__brand {
+    display: flex;
+    height: 100%;
+    width: 40%;
+}

@@ -1,0 +1,41 @@
+@import "./src/SCSS/_lib/breakpoints.scss";
+@import "./src/SCSS/_lib/mixins.scss";
+@import "./src/SCSS/_lib/polyfills.scss";
+@import "./src/SCSS/_lib/animations.scss";
+@import "./src/SCSS/_lib/variables.scss";
+@import "./src/SCSS/_lib/normalize.scss";
+
+@import './src/SCSS/components/navbar.scss';
+@import './src/SCSS/components/landing_video.scss';
+
+body {
+  @include font-smoothing();
+  background-color: $black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.master__container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex__container {
+    display: flex;
+}
+
+.flex__container__centered {
+    align-items: center;
+}
+
+.flex__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+}
