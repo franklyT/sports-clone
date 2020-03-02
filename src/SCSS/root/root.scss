@@ -1,12 +1,12 @@
-@import "./src/SCSS/_lib/breakpoints.scss";
-@import "./src/SCSS/_lib/mixins.scss";
-@import "./src/SCSS/_lib/polyfills.scss";
-@import "./src/SCSS/_lib/animations.scss";
-@import "./src/SCSS/_lib/variables.scss";
-@import "./src/SCSS/_lib/normalize.scss";
+@import "./src/SCSS/root/breakpoints.scss";
+@import "./src/SCSS/root/mixins.scss";
+@import "./src/SCSS/root/polyfills.scss";
+@import "./src/SCSS/root/animations.scss";
+@import "./src/SCSS/root/variables.scss";
+@import "./src/SCSS/root/normalize.scss";
 
-@import './src/SCSS/components/navbar.scss';
-@import './src/SCSS/components/landing_video.scss';
+@import './src/components/navbar.scss';
+@import './src/components/landing_video.scss';
 
 body {
   @include font-smoothing();

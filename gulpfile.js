@@ -6,7 +6,7 @@ var clean = require("gulp-clean-css");
 
 gulp.task("sass", function(cb) {
   gulp
-    .src("./src/SCSS/components/root.scss")
+    .src("./src/SCSS/root/root.scss")
     .pipe(sass())
     .pipe(concat("root.min.css"))
     .pipe(clean())
@@ -17,7 +17,7 @@ gulp.task("sass", function(cb) {
 gulp.task(
   "default",
   gulp.series("sass", function(cb) {
-    gulp.watch("./src/SCSS/*/*.scss", gulp.series("sass"));
+    gulp.watch("./src/*.scss", gulp.series("sass"));
     cb();
   })
 );
