@@ -1,4 +1,4 @@
-@mixin font-smoothing($value: antialiased) {
+@mixin font_smoothing($value: antialiased) {
   @if $value == antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -8,7 +8,7 @@
   }
 }
 
-@mixin box-shadow($shadows...) {
+@mixin box_shadow($shadows...) {
   -webkit-box-shadow: $shadows;
   -moz-box-shadow: $shadows;
   box-shadow: $shadows;
@@ -65,7 +65,7 @@
   transform: $value;
 }
 
-@mixin transform-origin($value) {
+@mixin transform_origin($value) {
   -o-transform-origin: $value;
   -ms-transform-origin: $value;
   -webkit-transform-origin: $value;
@@ -80,14 +80,14 @@
   animation: #{$str};
 }
 
-@mixin animation-delay($value) {
+@mixin animation_delay($value) {
   -o-animation: $value;
   -moz-animation: $value;
   -webkit-animation: $value;
   animation: $value;
 }
 
-@mixin linear-gradient($angle, $gradient1, $gradient2) {
+@mixin linear_gradient($angle, $gradient1, $gradient2) {
   background-color: $gradient2; /* Fallback Color */
   background-image: -webkit-gradient(
     linear,

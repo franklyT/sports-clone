@@ -1,6 +1,8 @@
 .landing_video__video {
     width: 100%;
     height: 93.37vh;
+    // Compensate for fixed nav
+    padding-top: 6.39vh;
 }
 
 .landing_video__logo {

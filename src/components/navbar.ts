@@ -5,7 +5,13 @@ const template_navbar_params = {
 document.getElementById("navbar")!.innerHTML = `
 <div class="navbar__container flex__container flex__container__centered">
   <div class="navbar__container__contents">
-    <img class="navbar__element__brand" src=${template_navbar_params.url}></img>
+    <div class="flex__row" style="flex-wrap: wrap">
+      <img class="navbar__element__brand" src=${template_navbar_params.url}></img>
+      <p class="navbar__element">SPORTS PROGRAMMING &nbsp;<span>▽</span>&nbsp;</p>
+      <p class="navbar__element">CONTENT CALENDAR &nbsp;</p>
+      <p class="navbar__element">CONTACTS &nbsp;<span>▽</span>&nbsp;</p>
+      <input class="navbar__element navbar__element__search" placeholder="Search"></input>
+    </div>
   </div>
 </div>
 `;
