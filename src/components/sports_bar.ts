@@ -10,7 +10,7 @@ const template_sports_bar_params = {
 
   };
   
-  document.getElementById("sports_bar")!.innerHTML = `
+  document.getElementById("sports_bar")!.innerHTML =  /*html*/ `
 <div class="flex__container flex__container__centered">
     <div class="flex__column" style="width: 100%">
         <div class="flex__row" style="width: 100%">

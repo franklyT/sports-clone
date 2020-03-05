@@ -1,4 +1,4 @@
-document.getElementById("footer")!.innerHTML = `
+document.getElementById("footer")!.innerHTML =  /*html*/ `
   <div class="footer__container flex__container flex__container__centered">
     <div class="footer__container__contents">
         <p class="footer__element--text">
