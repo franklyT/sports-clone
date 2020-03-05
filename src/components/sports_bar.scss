@@ -15,7 +15,7 @@
 }
 
 .sports_bar__box {
-  @include animation(sports_bar__box--fade_reverse 0.5s forwards);
+  animation: sports_bar__box--fade_reverse 0.5s forwards;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 
 .sports_bar__box:hover {
-  @include animation(sports_bar__box--fade 0.5s forwards);
+  animation: sports_bar__box--fade 0.5s forwards;
   text-shadow: none;
 }
 
@@ -40,7 +40,7 @@
   pointer-events: none;
 }
 
-@include keyframes(sports_bar__box--fade) {
+@keyframes sports_bar__box--fade {
   0% {
     filter: blur(0);
   }
@@ -49,7 +49,7 @@
   }
 }
 
-@include keyframes(sports_bar__box--fade_reverse) {
+@keyframes sports_bar__box--fade_reverse {
   0% {
     filter: blur(6px);
   }

@@ -1,8 +1,8 @@
-@include keyframes(fadein) {
+@keyframes fadein {
   0% {
-    @include opacity(0);
+    opacity: 0;
   }
   100% {
-    @include opacity(1);
+    opacity: 1;
   }
 }

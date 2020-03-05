@@ -1,38 +1,37 @@
 .footer__container {
-    top: 0;
-    height: 6.39vh;
-    width: 100%;
+  top: 0;
+  height: 6.39vh;
+  width: 100%;
 
-    background-color: $red;
+  background-color: $red;
 }
 
 .footer__container__contents {
-    margin-left: 25vw;
-    margin-right: 25vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 
 .footer__element--text {
-    color: $white;
-    font-size: 0.7em;
+  color: $white;
+  font-size: 0.7em;
 }
 
 .footer__element--link {
-    color: $silver;
-    font-weight: 800;
+  color: $silver;
+  font-weight: 800;
 }
 
 .footer__element--link:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    @include animation(footer__element--link--fadeout 0.5s forwards);
+  text-decoration: underline;
+  cursor: pointer;
+  animation: footer__element--link--fadeout 0.5s forwards;
 }
 
-@include keyframes(footer__element--link--fadeout) {
-    0% {
-      @include opacity(1);
-    }
-    100% {
-      @include opacity(0.7);
-    }
+@keyframes footer__element--link--fadeout {
+  0% {
+    opacity: 1;
   }
-  
+  100% {
+    opacity: 0.7;
+  }
+}
