@@ -33,37 +33,37 @@
 // Breakpoints
     // Smartphone
     @mixin smartphone {
-    @media (max-width: 480px) {
-        @content;
-    }
+        @media (max-width: 480px) {
+            @content;
+        }
     }
 
     // Smartphone Landscape
     @mixin smartphone_landscape {
-    @media (max-width: 768px) {
-        @content;
-    }
+        @media (max-width: 768px) {
+            @content;
+        }
     }
 
     // Tablets
     @mixin tablet {
-    @media (max-width: 991px) {
-        @content;
-    }
+        @media (max-width: 991px) {
+            @content;
+        }
     }
 
     // Desktops
     @mixin desktop {
-    @media (min-width: 1300px) {
-        @content;
-    }
+        @media (min-width: 1300px) {
+            @content;
+        }
     }
 
     // Large Desktops
-    @mixin desktop_large {
-    @media (min-width: 1600px) {
-        @content;
-    }
+        @mixin desktop_large {
+        @media (min-width: 1600px) {
+            @content;
+        }
     }
 // Breakpoints End
 
