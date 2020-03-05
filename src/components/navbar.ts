@@ -2,7 +2,7 @@ const template_navbar_params = {
   url: "./dist/media/pictures/logo.png"
 };
 
-document.getElementById("navbar")!.innerHTML =  /*html*/ `
+document.getElementById("navbar")!.innerHTML = /*html*/ `
 <div class="navbar__container flex__container flex__container__centered">
   <div class="navbar__container__contents">
     <div class="flex__row" style="flex-wrap: wrap">
