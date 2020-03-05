@@ -1,8 +1,4 @@
-@import "./src/SCSS/root/breakpoints.scss";
-@import "./src/SCSS/root/mixins.scss";
-@import "./src/SCSS/root/animations.scss";
-@import "./src/SCSS/root/variables.scss";
-@import "./src/SCSS/root/normalize.scss";
+@import "./src/SCSS/root/root_library.scss";
 
 @import './src/components/navbar.scss';
 @import './src/components/landing_video.scss';
